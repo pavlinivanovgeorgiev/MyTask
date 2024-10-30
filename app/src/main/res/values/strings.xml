@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyTask</string>
+
+    <string name="currency_converted">Currency converted</string>
+    <string name="ok">Ok</string>
+    <string name="insufficient_balance">Insufficient Balance</string>
+    <string name="insufficient_balance_for_the_transaction">Insufficient balance for the transaction.</string>
+    <string name="failed_to_load_data">Failed to load data</string>
+    <string name="error_loading_data">Error loading data: %1$s</string>
+    <string name="submit">Submit</string>
+    <string name="receive">Receive</string>
+    <string name="sell">Sell</string>
+    <string name="currency_exchange">CURRENCY EXCHANGE</string>
+    <string name="my_balances">MY BALANCES</string>
+    <string name="currency_converter">Currency converter</string>
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+</resources>
