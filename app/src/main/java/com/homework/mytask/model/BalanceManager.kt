@@ -19,9 +19,7 @@ class BalanceManager(context: Context) {
         sharedPreferences.edit().putFloat("balance_$currency", newBalance.toFloat()).apply()
     }
 
-    // Инициализиране на начален баланс за всички валути
     fun setInitialBalance(currency: String, amount: Double) {
-        Log.d("check123","setInitialBalance: " + currency + " :: " + amount)
         sharedPreferences.edit().putFloat("balance_$currency", amount.toFloat()).apply()
     }
 

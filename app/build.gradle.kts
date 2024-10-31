@@ -40,7 +40,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -53,12 +52,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.5.0")
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
 
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation ("com.google.android.material:material:1.12.0")
+    implementation(libs.androidx.recyclerview)
+    implementation (libs.material)
 
-    implementation ("androidx.navigation:navigation-fragment-ktx:2.3.5")
-
+    implementation (libs.androidx.navigation.fragment.ktx)
 }
